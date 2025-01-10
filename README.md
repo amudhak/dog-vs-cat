@@ -8,3 +8,7 @@ Training a neural network to be able to identify and differentiate between image
 2. cmd jupyter lab in the appropriate directory
 
 NOTE: Some packages may be necessary in order to preprocess the data, and split it into the training, testing, and validation sets.
+
+### To Do
+
+The model might be overfitting right now. Training was cut off early of 10 epochs, with an accuracy of 99% but testing accuracy is only about 70%. Look into simplifying the model as well as some regularization techniques.
